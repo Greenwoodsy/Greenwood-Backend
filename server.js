@@ -29,6 +29,7 @@ app.use(
   cors({
     origin: [
       "https://www.greenwoodsy.com",
+      "https://greenwoodsy.com",
       "http://localhost:3000",
       "http://localhost:3000",
       "https://api.greenwoodsy.com",
