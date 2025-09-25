@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Confirmation</title>
+</head>
+<body>
+  <div>
+    <h2>Greenwood</h2>
+    <h2>Hello {{name}}</h2>
+    <p>Thank you for investing with us! Your investment details are as follows:</p>
+    <ul>
+      <li><strong>Plan:</strong> {{plan}}</li>
+      <li><strong>Amount Invested:</strong> ${{amount}}</li>
+      <li><strong>Investment Start Date:</strong> {{startDate}}</li>
+      <li><strong>Plan Duration:</strong> {{investmentDurationDays}} days</li>
+      <li><strong>Investment Profit Date:</strong> {{maturityDate}}</li>
+      <li><strong>Profit Amount (including interest):</strong> ${{maturityAmount}}</li>
+    </ul>
+    <p>Your investment has been successfully recorded, and the amount has been deducted from your general balance.</p>
+    <p>You can view more details about your investment by clicking the button below:</p>
+    <a href="{{link}}">View Investment</a>
+    <p>Thank you for choosing our investment platform!</p>
+    <div>
+      <p>Regards...</p>
+      <p><strong>Greenwood</strong> Team</p>
+    </div>
+  </div>
+</body>
+</html>
